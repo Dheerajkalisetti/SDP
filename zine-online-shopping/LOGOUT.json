@@ -1,0 +1,5 @@
+db.carts.update({
+     _id: "the_users_session_id"
+   }, {
+     $set: {status:"complete"}
+   });
